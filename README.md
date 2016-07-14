@@ -3,11 +3,6 @@ This package includes the source codes for  "Novel Coplanar Line-points Invarian
 To run the program, please:
 
 1.Run 'TestLMDll' with Microsoft Visual Studio 2010 to get lines detected by LSD and points matched by SIFT.
-  
-  The project of TestLMDll is modified from the source code supplied by:
-  Fan, B., Wu, F., Hu, Z.: Line matching leveraged by point correspondences. In: Computer Vision and Pattern Recognition (CVPR), 2010 IEEE Conference on,
-  IEEE (2010) 390¨C397
-
 
 2.Put the images into directory 'img' , and put the files of matched points and detected lines into directory 'pts&lines'.
  
