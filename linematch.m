@@ -27,7 +27,6 @@ disp(' Reading files and preparing...');
 
   disp(' Calculating similarities between line neighborhoods...');
     for i=1:len1
-        i
         t=lines1(i);
         for j=1:len2
           [simL(i,j),simR(i,j)]=distline(t,lines2(j));
