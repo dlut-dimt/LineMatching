@@ -57,7 +57,7 @@ simeside1=[ simside1 2*ones(1,size(k,1))];
 len=size(k,1);
 votecan=zeros(len2,len1);
 
- disp(' Matching lines...');
+ disp(' Matching lines ...');
 for i=1:len
 
     [p1,p2]=getHpoints1L(lines1(k(i,1)),lines2(k(i,2)),simeside1(i));
