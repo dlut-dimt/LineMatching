@@ -4,6 +4,7 @@ function [inds]=getpoints(linenum,pointlist,except)
     if~(exist('except','var'))
        except=0;
     end
+    
     inds=[];
     len=length(pointlist);
     for i=1:len

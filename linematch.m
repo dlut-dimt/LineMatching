@@ -1,7 +1,9 @@
+
 function linematch 
 clc;
 clear;
 close all;
+
 img1='.\imgs\1_A.jpg';
 img2='.\imgs\1_B.jpg';
 pmfile=strcat('.\pts&lines\1ABpoint.txt');

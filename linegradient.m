@@ -1,6 +1,6 @@
+
 function [ lines ] = linegradient( I, lines )
 
-    
     I = double(I);
 
     for i=1:length(lines)

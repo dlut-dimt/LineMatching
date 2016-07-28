@@ -1,3 +1,4 @@
+
 function [X, Y]=Itspoint(line1,line2)
 
         k1=line1.k;

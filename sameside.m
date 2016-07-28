@@ -1,3 +1,4 @@
+
 function ss=sameside(line,point1,point2)
 
     ss = false;

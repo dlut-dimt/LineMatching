@@ -1,3 +1,4 @@
+
 function cp=crossproduct(p1,p2,o)
 % if~(exist('o','var'))
 %     o=[0 0];

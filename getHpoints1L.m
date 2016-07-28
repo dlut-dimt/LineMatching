@@ -1,3 +1,4 @@
+
 function [p1,p2] = getHpoints1L(line1,line2,side)
 minnum=5;
 p1=[];p2=[];
