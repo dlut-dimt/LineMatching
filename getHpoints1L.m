@@ -1,6 +1,6 @@
 
 function [p1,p2] = getHpoints1L(line1,line2,side)
-minnum=5;
+minnum=10;
 p1=[];p2=[];
 if side == 1
     [C,ind1,ind2]=intersect( line1.pleft(:,3), line2.pleft(:,3));
