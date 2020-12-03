@@ -1,5 +1,4 @@
 %distline.p加密文件对应的.m文件
-
 function [simL,simR]=distline(line1,line2)
 
     simL=getCNdist(line1,line2,'L');
@@ -34,8 +33,8 @@ end
 ps1=sidep1(ind1,1:2);
 ps2=sidep2(ind2,1:2);
 
-% simed=zeros(n,1);
-for i=n%1:
+simp=zeros(n,1);
+for i=1:n
     m=0;
     simed=zeros( (n-1)*(n-2)/2, 1 );
     for j=1:n
@@ -60,8 +59,8 @@ for i=n%1:
         end
 
     end
-    simed(i)=median(simed(1:m));
+    simp(i)=median(simed(1:m));
 end
 
-sidesim=max(simed);
+sidesim=max(simp);
 end
